@@ -21,10 +21,17 @@
     .brand-name{
         display: none;
     }
+    /* .top-bar-icon a{
+        display: none;
+    } */
 }
-
-@media (max-width: 996px){ 
-    .bar-icon{
+@media (min-width : 577px){
+    .top-bar-icon i{
+        display: none;
+    }
+}
+@media (max-width : 576px){
+    .top-bar-icon a{
         display: none;
     }
 }
