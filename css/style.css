@@ -1,0 +1,30 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.top-bar{
+    height: auto;
+}
+.search-bar{
+    height: auto;
+}
+.product-img img{
+    height: 200px;
+}
+#user-name input[type=text]{
+    outline: none;
+}
+#user-name input[type=text]:focus{
+    outline: none;
+}
+
+@media (max-width: 768px){ 
+    .brand-name{
+        display: none;
+    }
+}
+
+@media (max-width: 996px){ 
+    .bar-icon{
+        display: none;
+    }
+}
